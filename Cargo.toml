@@ -1,0 +1,2 @@
+[workspace]
+members = ["packages/http_sync/native"]

@@ -1,0 +1,28 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: pub
+    directory: "/"
+    schedule:
+      interval: weekly
+  - package-ecosystem: pub
+    directory: "/packages/http_sync"
+    versioning-strategy: increase # https://github.com/dependabot/dependabot-core/issues/6446
+    schedule:
+      interval: weekly
+  - package-ecosystem: pub
+    directory: "/packages/http_sync/example"
+    schedule:
+      interval: weekly
+  - package-ecosystem: pub
+    directory: "/packages/flutter_http_sync"
+    schedule:
+      interval: weekly
+  - package-ecosystem: pub
+    directory: "/packages/flutter_http_sync/example"
+    schedule:
+      interval: weekly
+  - package-ecosystem: cargo
+    directory: "/packages/http_sync/native"
+    schedule:
+      interval: weekly
