@@ -16,7 +16,7 @@ dependencies:
 
   # These two are needed for the example; they are not required by mimir
   hooks_riverpod: ^2.1.1
-  flutter_hooks: ^0.18.5+1
+  flutter_hooks: ^0.20.0
 
 dev_dependencies:
   flutter_test:
